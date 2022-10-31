@@ -1,6 +1,5 @@
 import React from "react";
 import Expenses from "./components/Expenses";
-import Card from "./components/Card";
 
 const App = () => {
   const expenses = [
@@ -30,10 +29,16 @@ const App = () => {
     },
   ];
 
+  // return React.createElement(
+  //   "div",
+  //   {},
+  //   React.createElement(Expenses, { items: expenses })
+  // );
+
   return (
-    <Card>
+    <div>
       <Expenses items={expenses} />
-    </Card>
+    </div>
   );
 };
 
