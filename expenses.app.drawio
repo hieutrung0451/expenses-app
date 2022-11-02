@@ -1,44 +1,74 @@
 <mxfile host="65bd71144e">
     <diagram id="ZoBaKVG_HrzwfUemQ9gy" name="App">
-        <mxGraphModel dx="531" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="342" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="13" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="100" y="370" width="320" height="130" as="geometry"/>
+                    <mxGeometry x="290" y="370" width="270" height="130" as="geometry"/>
                 </mxCell>
                 <mxCell id="a5bqAggi7QMjIA0w0SUw-12" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" target="a5bqAggi7QMjIA0w0SUw-11" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="620" y="270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="3" value="App" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="200" y="160" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="365" y="160" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" value="" style="edgeStyle=none;html=1;" parent="1" source="4" target="9" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="ExpenseItem" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="200" y="420" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="365" y="410" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="id, title, amount, date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="260" y="240" width="130" height="20" as="geometry"/>
+                    <mxGeometry x="425" y="240" width="130" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" value="ExpenseDate" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="200" y="530" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="365" y="540" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="11" value="date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="270" y="500" width="40" height="20" as="geometry"/>
+                    <mxGeometry x="425" y="510" width="40" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="a5bqAggi7QMjIA0w0SUw-13" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="a5bqAggi7QMjIA0w0SUw-11" target="4" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="a5bqAggi7QMjIA0w0SUw-11" value="Expenses" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="200" y="280" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="365" y="280" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="a5bqAggi7QMjIA0w0SUw-14" value="id, title, amount, date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="260" y="380" width="130" height="20" as="geometry"/>
+                    <mxGeometry x="425" y="380" width="130" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" value="Card" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="120" y="430" width="40" height="20" as="geometry"/>
+                    <mxGeometry x="310" y="430" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="16" target="18">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="240" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;entryX=0.408;entryY=1.039;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="16" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="NewExpense" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="280" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;exitX=0.7;exitY=-0.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="18">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="234" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="ExpenseForm" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="400" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="expenseData" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="350" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="expenseData" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="260" width="90" height="20" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
